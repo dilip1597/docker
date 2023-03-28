@@ -1,0 +1,24 @@
+dimage buliding command
+
+docker build -t image name to create .  
+
+note : dot (.) is must required
+
+
+
+
+
+ocker build --tag  python-django
+
+docker run --publish 8000:8000 python-django
+
+
+
+if compose.yml file is not return
+
+
+
+docker build --tag django_todo:latest .                         # django_todo is your image name 
+
+
+docker run --name django_todo -d -p 8000:8000 django_todo:latest
